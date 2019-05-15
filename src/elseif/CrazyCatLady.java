@@ -5,18 +5,26 @@ package elseif;
 
 import java.net.URI;
 
+import javax.swing.JOptionPane;
+
 public class CrazyCatLady {
 	public static void main(String[] args) {
 		// 1. Ask the user how many cats they have
-
+System.out.println();
+		String nevereverland = JOptionPane.showInputDialog("How many cars you goto Fam?");
 		// 2. Convert their answer into an int
-
+int cats = Integer.parseInt(nevereverland);
+//int ___ = Integer.parseInt(_____);
 		// 3. If they have 3 or more cats, tell them they are a crazy cat lady
-
+ if(nevereverland.equals("3 or more")) {
+	 JOptionPane.showMessageDialog(null, "your a Crazy cat lady.... Furry!");
+ }
 		// 4. If they have less than 3 cats AND more than 0 cats, call the method below to show them a cat video
-
+ else if (nevereverland.equals("2")) {
+playVideo("https://www.youtube.com/watch?v=D2ISzNuhtxE");
+ }
 		// 5. If they have 0 cats, show them a video of A Frog Sitting on a Bench Like a Human
-		
+	
 	}
 
 	static void playVideo(String videoURL) {

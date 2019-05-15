@@ -12,7 +12,7 @@ public class BirthdayReminder {
 	
 		// 1. correct the birthdays for your family below
 		String momsBirthday = "May 17th";
-		String dadsBirthday = "May 1st Happy Birthday to your Dad!";
+		String dadsBirthday = "May 1st";
 		String myBirthday = "July 2nd";
 
 		// 2. Find out which birthday the user wants and store their response in a variable
