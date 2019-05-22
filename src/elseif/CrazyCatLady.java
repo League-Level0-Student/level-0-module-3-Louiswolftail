@@ -24,9 +24,10 @@ int cats = Integer.parseInt(nevereverland);
 playVideo("https://www.youtube.com/watch?v=D2ISzNuhtxE");
  }
 		// 5. If they have 0 cats, show them a video of A Frog Sitting on a Bench Like a Human
-	
+ else  if (nevereverland.equals("0")) {
+playVideo("https://www.youtube.com/watch?v=aoyiYzMGg4g");
+ }
 	}
-
 	static void playVideo(String videoURL) {
 		try {
 			URI uri = new URI(videoURL);
