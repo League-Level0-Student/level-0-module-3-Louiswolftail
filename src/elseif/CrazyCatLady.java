@@ -17,7 +17,7 @@ int cats = Integer.parseInt(nevereverland);
 //int ___ = Integer.parseInt(_____);
 		// 3. If they have 3 or more cats, tell them they are a crazy cat lady
  if(nevereverland.equals("3 or more")) {
-	 JOptionPane.showMessageDialog(null, "your a Crazy cat lady.... Furry!");
+	 JOptionPane.showMessageDialog(null, "Your a Crazy cat lady!");
  }
 		// 4. If they have less than 3 cats AND more than 0 cats, call the method below to show them a cat video
  else if (nevereverland.equals("2")) {
